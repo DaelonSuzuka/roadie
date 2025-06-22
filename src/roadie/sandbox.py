@@ -124,5 +124,5 @@ if __name__ == '__main__':
     sb.run('print(test)')
     sb.run('print(test.name)')
 
-    sb.run('save("data", "penis")')
+    sb.run('save("data", "test data please ignore")')
     sb.run('print(load("data"))')
