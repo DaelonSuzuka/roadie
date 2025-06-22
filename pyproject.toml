@@ -1,0 +1,27 @@
+[project]
+name = "roadie"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beartype>=0.21.0",
+    "colorist>=1.8.4",
+    "nicegui>=2.20.0",
+    "promisio>=0.1.1",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.0",
+    "pyside6>=6.9.1",
+    "pywebview>=5.4",
+    "qtpy>=2.4.3",
+]
+
+[tool.ruff]
+line-length = 120
+ignore = ["F402"]
+
+[tool.ruff.per-file-ignores]
+"**/__init__.py" = ["F403"]
+
+[tool.ruff.format]
+quote-style = "single"
